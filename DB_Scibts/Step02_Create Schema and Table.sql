@@ -26,7 +26,8 @@ create table if not exists `patient` (
 -- -----------------------------------------------
 create table if not exists `cancelation` (
 	`id` BIGINT NOT NULL auto_increment,
-    `desc` varchar(255) default NULL, 
+    `patient_request` varchar(255) default NULL, 
+	`physician_apology` varchar(255) default NULL, 
     primary key(`id`)
 )engine=InnoDB AUTO_INCREMENT=1 CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
