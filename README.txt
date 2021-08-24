@@ -43,10 +43,10 @@ to search in appointment list by id
 http://localhost:8080/api/appointment/search/findByPatientId?id=1
 
 to search in appointment list by first name
-http://localhost:8080/api/appointment/search/findByPatientFirstNameContaining?name=mohamed
+http://localhost:8080/api/appointment/search/findByPatientFirstName?name=mohamed
 
 to search in appointment list by first name
-http://localhost:8080/api/appointment/search/findByPatientLastNameContaining?name=ghareeb
+http://localhost:8080/api/appointment/search/findByPatientLastName?name=ghareeb
 
 Search by Date: 
 
