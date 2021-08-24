@@ -61,7 +61,7 @@ Delete : http://localhost:8080/api/appointment/1
 
 
 POST: http://localhost:8080/api/patient/add
-Body: 
+BODY:
 {
     "patient": {
         "firstName": "mostafa",
@@ -70,16 +70,16 @@ Body:
     },
     "appointment": [
         {
-            "review": "fever"
+            "review": "fever",
+            "cancelation": {
+                "patientRequest": "phone Call Cancel",
+                "physicianApology": "none"
+            }
         },
         {
             "review": "covid"
         }
-    ],
-    "cancelation": {
-        "patientRequest": "any",
-        "physicianApology": "anything"
-    }
+    ]
 }
 
 
