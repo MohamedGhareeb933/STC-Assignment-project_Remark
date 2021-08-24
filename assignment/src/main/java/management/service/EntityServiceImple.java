@@ -23,10 +23,9 @@ public class EntityServiceImple implements EntityService{
         // get patient from JSON.
         Patient patient = body.getPatient();
 
-        // set Appointment Cancellation and set Patient Appointment
+        // set Patient Appointment
         body.getAppointment().forEach(
                 appointment -> {
-                    appointment.setCancelation(body.getCancelation());
                     patient.add(appointment);
                }
        );

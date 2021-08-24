@@ -1,4 +1,3 @@
-
 {
     "patient": {
         "firstName": "mostafa",
@@ -17,4 +16,26 @@
         "patientRequest": "any",
         "physicianApology": "anything"
     }
+}
+
+
+
+{
+    "patient": {
+        "firstName": "mostafa",
+        "lastName": "Ahmed",
+        "email": "mostafa@gmail.com"
+    },
+    "appointment": [
+        {
+            "review": "fever",
+            "cancelation": {
+                "patientRequest": "phone Call Cancel",
+                "physicianApology": "none"
+            }
+        },
+        {
+            "review": "covid"
+        }
+    ]
 }
