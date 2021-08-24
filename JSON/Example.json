@@ -1,0 +1,20 @@
+
+{
+    "patient": {
+        "firstName": "mostafa",
+        "lastName": "Ahmed",
+        "email": "mostafa@gmail.com"
+    },
+    "appointment": [
+        {
+            "review": "fever"
+        },
+        {
+            "review": "covid"
+        }
+    ],
+    "cancelation": {
+        "patientRequest": "any",
+        "physicianApology": "anything"
+    }
+}
