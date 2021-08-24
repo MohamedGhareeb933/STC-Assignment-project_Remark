@@ -61,8 +61,6 @@ Delete : http://localhost:8080/api/appointment/1
 
 
 POST: http://localhost:8080/api/patient/add
-
-
 Body: 
 {
     "patient": {
