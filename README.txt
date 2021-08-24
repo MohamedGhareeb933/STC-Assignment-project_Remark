@@ -1,10 +1,12 @@
 # STC-Assignment-project_Remark
 
 -Whats new in the Remark 
-*propper Cascades.
-*Error Handling. 
-*Search by Date 
-*new Cancellation schema and Entity 
+* propper Cascades.
+* Error Handling. 
+* Search by Date 
+* new Cancellation schema and Entity 
+* proper JSON POST
+* 
 
 Assignment for Data Managment 
 
@@ -35,7 +37,7 @@ http://localhost:8080/api/patient/1
 http://localhost:8080/api/appointment/1
 
 
-search endpoints 
+search endpoints: http://localhost:8080/api/appointment/search
 
 to search in appointment list by id
 http://localhost:8080/api/appointment/search/findByPatientId?id=1
@@ -81,7 +83,3 @@ BODY:
         }
     ]
 }
-
-
-
-
