@@ -1,14 +1,4 @@
-# STC-Assignment-project_Remark
-
--Whats new in the Remark 
-* propper Cascades.
-* Error Handling. 
-* Search by Date 
-* new Cancellation schema and Entity 
-* proper JSON POST
-* 
-
-Assignment for Data Managment 
+Assignment for Data Managment
 
 
 to setup the project 
